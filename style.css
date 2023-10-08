@@ -1,0 +1,247 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 40px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* style.css */
+
+/* Reset beberapa default browser */
+body, h1, h2, h3, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff7f50; /* Warna oranye saat hover */
+}
+
+/* Styling bagian "Tentang Saya" */
+section#about {
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+/* Styling bagian "Portofolio" */
+section#portfolio {
+    padding: 40px;
+}
+
+.project {
+    margin-bottom: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.project p {
+    font-size: 18px;
+    margin: 0 20px 20px 20px;
+}
+
+/* Styling bagian "Kontak" */
+section#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+}
+
+section#contact a {
+    color: #ff7f50; /* Warna oranye untuk tautan kontak */
+}
+
+/* Styling footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* style.css */
+
+.photo-container {
+    width: 200px; /* Sesuaikan ukuran yang Anda inginkan */
+    height: 200px; /* Sesuaikan ukuran yang Anda inginkan */
+    border-radius: 50%; /* Membuat foto menjadi bulat */
+    overflow: hidden; /* Menghapus bagian gambar yang melewati batas lingkaran */
+    margin : left ; /* Untuk membuat foto berada di tengah halaman */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Tambahkan bayangan jika diinginkan */
+}
+
+.round-photo {
+    width: 100%;
+    height: auto;
+    display: block; /* Menghapus spasi bawah yang mungkin muncul di bawah gambar */
+}
+/* style.css */
+
+.container {
+    display: flex; /* Menggunakan flexbox untuk mengatur tata letak */
+    align-items: center; /* Mengatur teks agar berada di tengah vertikal */
+}
+
+.photo {
+    width: 150px; /* Sesuaikan ukuran foto Anda */
+    height: 150px; /* Sesuaikan ukuran foto Anda */
+    border-radius: 50%; /* Membuat foto menjadi bulat */
+    margin-right: 20px; /* Mengatur jarak antara foto dan teks */
+}
+
+.text {
+    flex: 1; /* Agar teks dapat mengisi ruang yang tersedia */
+}
+
+.text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 16px;
+}
+
+.iklan {
+    width: 400px;
+}
+.siber {
+    width: 400px;
+}
+.lomba{
+    width: 400px;
+}
+.tiktokshop{
+    width: 400px;
+}
+/* Style dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the button that opens the dropdown */
+.dropbtn {
+    
+    color: black;   
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    
+    color: black;
+}
+    
+
+
+/* Show the dropdown when the button is hovered over */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.elon {
+
+    width: 400px;
+}
